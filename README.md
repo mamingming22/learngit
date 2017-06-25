@@ -30,3 +30,5 @@ git local 测试
 8.git reflog      -------查看命令历史记录；
 9.git checkout      -------丢弃工作区的修改；
 10.git rm      -------删除文件；
+
+use vim test
