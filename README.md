@@ -34,5 +34,5 @@ git reset HEAD README.md 把暂存区readme文件的修改撤销
 use vim test
 
 creating a new branch
-git checkout -b dev相当于git branch dev && git checkout dev
-
+git checkout -b dev相当于git branch dev & git checkout dev
+git merge dev 合并dev分支到master上
