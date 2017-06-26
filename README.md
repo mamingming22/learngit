@@ -10,10 +10,10 @@ git local 测试
 试试gui怎么用
 4.git log 查看历史纪录
 5.git reset --hard commit_id 可以回退到某个版本
-  git reset --hard HEAD^ 可以回到上个版本
+git reset --hard HEAD^ 可以回到上个版本
 
-  git reset HEAD README.md 把暂存区readme文件的修改撤销
-  再用git checkout -- README.md 将修改清理掉
+git reset HEAD README.md 把暂存区readme文件的修改撤销
+再用git checkout -- README.md 将修改清理掉
 若是回错版本
 6.git reflog 命令查看命令历史
 然后可以选择要回到的那个版本
@@ -32,3 +32,7 @@ git local 测试
 10.git rm      -------删除文件；
 
 use vim test
+
+creating a new branch
+git checkout -b dev相当于git branch dev && git checkout dev
+
